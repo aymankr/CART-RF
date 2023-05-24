@@ -33,23 +33,23 @@ Ce projet a besoin des packages Python suivants :
 
 Vous pouvez installer ces dépendances avec pip en utilisant la commande suivante:
 
-\```bash
+```bash
 pip install tkinter pandas numpy pillow graphviz uuid
-\```
+```
 
 ## Exécution
 
 Pour exécuter ce programme, vous devez d'abord exécuter le script `gini_interface.py`. Voici comment le faire à partir de la ligne de commande :
 
-\```bash
+```bash
 python gini_interface.py
-\```
+```
 
 Vous pouvez également créer un exécutable à partir du script Python en utilisant `pyinstaller` :
 
-\```bash
+```bash
 pyinstaller --onefile gini_interface.py
-\```
+```
 
 L'exécutable sera situé dans le dossier `dist`.
 
